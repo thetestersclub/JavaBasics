@@ -39,11 +39,7 @@ public class FirstProg {
 	System.out.println(10!=10);
 	System.out.println((20>70) || (10!=10) || (10>30));
 	
-	
-	
-	
-	
-	
 	}
+	
 	
 }

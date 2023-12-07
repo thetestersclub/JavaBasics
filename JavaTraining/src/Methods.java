@@ -26,15 +26,24 @@ public class Methods {
 		
 	}
 	
+	public static void statmethod() {
+
+		System.out.println("Inside static");
+		
+	}
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Methods obj = new Methods();
 		int subs = obj.Sub(7, 4);
+		
 		System.out.println("Subtraction = "+subs);
+		statmethod();
 		Methods obj1 = new Methods();
 		int subs1 = obj1.Sub(10, 4);
-		System.out.println("Subtraction = "+subs1);
+		System.out.println("Subtraction = "+subs1);	
+		
 	}
 
 }
