@@ -2,9 +2,13 @@ package Exceptions;
 
 public class Finally {
 	static int k=10;
-	k=15;
+	static int var = 7;
 
 	public static void main(String[] args) {
+		int var = 7;
+		var=9;
+		k=15;
+		System.out.println(k);
 
 		try {
 			int div = 10/0;
