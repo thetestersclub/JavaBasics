@@ -5,6 +5,7 @@ public class Swtich {
 		// TODO Auto-generated method stub
 
 		
+		
 		int num = 5;
 		switch(num) {
 		case 1: 

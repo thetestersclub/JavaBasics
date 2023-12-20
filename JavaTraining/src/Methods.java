@@ -6,6 +6,8 @@ public class Methods {
 	//Global variable
 	
 	int i=0;
+	static int h=0;
+	final int r=9;
 	
 	public int Add(int a,int b) {
 
@@ -34,7 +36,11 @@ public class Methods {
 	
 
 	public static void main(String[] args) {
+		
 		// TODO Auto-generated method stub
+		h=9;
+		final int r=9;
+	
 		Methods obj = new Methods();
 		int subs = obj.Sub(7, 4);
 		
