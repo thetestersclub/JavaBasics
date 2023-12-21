@@ -6,9 +6,10 @@ public class Dog extends Animal {
 		System.out.println("Dog constructor");
 	}
 	
-//	public Dog(int x){
-//		System.out.println("Parameterized Dog constructor");
-//	}
+	public Dog(int x){
+		super(4,5);
+		System.out.println("Parameterized Dog constructor");
+	}
 	
 	@Override
 	public void sound() {

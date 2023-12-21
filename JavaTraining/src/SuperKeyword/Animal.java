@@ -6,6 +6,10 @@ public class Animal {
 		System.out.println("Animal constructor");
 	}
 	
+	public Animal(int x, int r){
+		System.out.println("Animal paramerized constructor");
+	}
+	
 	
 
 	public void sound() {

@@ -3,6 +3,7 @@ package SuperKeyword;
 public class Test extends Dog{
 	
 	public Test() {
+		super(5);
 		System.out.println("Test const");
 	}
 	
@@ -17,7 +18,7 @@ public class Test extends Dog{
 		// TODO Auto-generated method stub
 		
 		Test obj = new Test();
-//		obj.sound();
+		//		obj.sound();
 		
 //		BullDog obj = new BullDog();
 		
