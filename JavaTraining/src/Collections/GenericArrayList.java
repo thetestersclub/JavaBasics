@@ -13,6 +13,7 @@ public class GenericArrayList {
 		lt.add(10);
 		lt.add(20);
 		
+		
 		int i = lt.get(0);
 
 	}
